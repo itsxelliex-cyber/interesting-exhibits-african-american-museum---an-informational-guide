@@ -1,0 +1,7 @@
+body {
+    background-image: url('_(16).png');
+    background-size: cover;
+  background-position: center;
+  min-height: 400px; /* Or height: 100vh; for full screen */
+  width: 100%;
+}
