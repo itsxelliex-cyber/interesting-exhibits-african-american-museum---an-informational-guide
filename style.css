@@ -1,7 +1,33 @@
 body {
-    background-image: url('_(16).png');
-    background-size: cover;
-  background-position: center;
-  min-height: 400px; /* Or height: 100vh; for full screen */
-  width: 100%;
+    background-image: url('brwn056.gif');
+    
+    .content-box {
+        background-color: rgba(255, 231, 200, 0.8);
+        border-radius: 10px;
+        max-width: 750px;
+        margin: 40px auto;
+        padding: 30px;
+          border: 2px solid #8c6239;         
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: #2b1d12; 
+
+    }
+
+    .redaction-35-regular {
+  font-family: "Redaction 35", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-35-bold {
+  font-family: "Redaction 35", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-35-regular-italic {
+  font-family: "Redaction 35", serif;
+  font-weight: 400;
+  font-style: italic;
+}
 }
