@@ -1,5 +1,9 @@
 body {
     background-image: url('brwn056.gif');
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes the body at least as tall as the screen */
+  margin: 0;
     
     .content-box {
         background-color: rgba(255, 231, 200, 0.8);
@@ -7,7 +11,9 @@ body {
         max-width: 750px;
         margin: 40px auto;
         padding: 30px;
-          border: 2px solid #8c6239;         
+          border: 2px solid #8c6239;  
+          font-family: 'Redaction 35', serif;
+          font-color: #432c1b;       
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   color: #2b1d12; 
 
@@ -30,4 +36,13 @@ body {
   font-weight: 400;
   font-style: italic;
 }
+
+
+
+
+}
+footer {
+  text-align: bottom;
+  text-align: center;
+  margin-top: 475px;
 }
